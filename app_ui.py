@@ -113,6 +113,9 @@ class App(ctk.CTk):
 
         self.entry_widgets = [self.suffix_entry, self.prefix_entry, self.find_entry, self.replace_entry, self.old_ext_entry, self.new_ext_entry, self.start_num_entry, self.separator_entry]
 
+    def natural_sort_key(self, s):
+        return [int(text) if text.isdigit() else text.lower() for text in re.split('([0-9]+)', s)]
+
     def select_folder(self):
         folder_path = filedialog.askdirectory()
         if folder_path: self.load_folder_data(folder_path)
@@ -122,7 +125,7 @@ class App(ctk.CTk):
         self.undo_log_path = os.path.join(self.selected_folder, ".rename_undo_log.json")
         self.folder_path_label.configure(text=f"{self.selected_folder}")
         try:
-            self.file_list = sorted([f for f in os.listdir(self.selected_folder) if os.path.isfile(os.path.join(self.selected_folder, f)) and not f == ".rename_undo_log.json"])
+            self.file_list = sorted([f for f in os.listdir(self.selected_folder) if os.path.isfile(os.path.join(self.selected_folder, f)) and not f == ".rename_undo_log.json"], key=self.natural_sort_key)
             self.preview_list = {f: f for f in self.file_list}
             self.operations_to_apply = {}
             self.update_preview_display()
