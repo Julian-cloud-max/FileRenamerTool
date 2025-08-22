@@ -33,7 +33,7 @@
 
 #### 方式一：下载预编译版本（推荐）
 
-1. 前往 [Releases](https://github.com/your-username/FileRenamerTool/releases) 页面
+1. 前往 [Releases](https://github.com/Julian-cloud-max/FileRenamerTool/releases) 页面
 2. 下载最新版本的 `FileRenamerTool.exe`
 3. 双击运行即可使用
 
@@ -41,7 +41,7 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/your-username/FileRenamerTool.git
+git clone https://github.com/Julian-cloud-max/FileRenamerTool.git
 cd FileRenamerTool
 
 # 2. 创建虚拟环境
@@ -132,7 +132,7 @@ FileRenamerTool/
 ```bash
 # 1. Fork项目到你的GitHub账户
 # 2. 克隆你的Fork
-git clone https://github.com/your-username/FileRenamerTool.git
+git clone https://github.com/Julian-cloud-max/FileRenamerTool.git
 cd FileRenamerTool
 
 # 3. 创建开发分支
@@ -158,8 +158,8 @@ git push origin feature/your-feature-name
 
 ### 如何贡献
 
-1. **报告Bug** - 在 [Issues](https://github.com/your-username/FileRenamerTool/issues) 中创建新的Issue
-2. **提出建议** - 在 [Discussions](https://github.com/your-username/FileRenamerTool/discussions) 中分享你的想法
+1. **报告Bug** - 在 [Issues](https://github.com/Julian-cloud-max/FileRenamerTool/issues) 中创建新的Issue
+2. **提出建议** - 在 [Discussions](https://github.com/Julian-cloud-max/FileRenamerTool/discussions) 中分享你的想法
 3. **提交代码** - Fork项目并创建Pull Request
 4. **改进文档** - 帮助完善README、注释等文档
 
@@ -190,8 +190,8 @@ git push origin feature/your-feature-name
 
 ## 📞 联系我们
 
-- **GitHub Issues**: [报告问题](https://github.com/your-username/FileRenamerTool/issues)
-- **GitHub Discussions**: [讨论交流](https://github.com/your-username/FileRenamerTool/discussions)
+- **GitHub Issues**: [报告问题](https://github.com/Julian-cloud-max/FileRenamerTool/issues)
+- **GitHub Discussions**: [讨论交流](https://github.com/Julian-cloud-max/FileRenamerTool/discussions)
 
 ---
 
