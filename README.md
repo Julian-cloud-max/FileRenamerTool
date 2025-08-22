@@ -37,6 +37,8 @@
 2. 下载最新版本的 `FileRenamerTool.exe`
 3. 双击运行即可使用
 
+> ⚠️ **注意**：如果杀毒软件报告病毒，这是误报！请查看 [杀毒软件误报说明](ANTIVIRUS_FALSE_POSITIVE.md) 了解如何解决。
+
 #### 方式二：从源码运行
 
 ```bash
